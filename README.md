@@ -47,5 +47,5 @@ Abed Pierce
 ...
 ```
 
-## `main.go`
+## `old.go`
 This is the first version of the Secret Santa, which receives a list of names in the CLI arguments and returns the pairings, by greedily trying to create the assignments. If the cycle of Santas is not closed, and somebody remains without an assignment, it retries.
